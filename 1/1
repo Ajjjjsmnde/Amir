@@ -1,0 +1,19 @@
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double g, d, h;
+        Console.Write("Enter the radius: ");
+        g = Convert.ToDouble(Console.ReadLine());
+
+        d = 2 * Math.PI * g;
+        h = Math.PI * Math.Pow(g, 2);
+
+        Console.WriteLine("mohit: " + d);
+        Console.WriteLine("masahat: " + h);
+        Console.ReadKey();
+    }
+}
