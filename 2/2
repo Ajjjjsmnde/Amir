@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int c, h;
+        Console.Write("enter number: ");
+        c = int.Parse(Console.ReadLine());
+
+        if (c % 7 == 0)
+        {
+            Console.WriteLine("yes!");
+        }
+        else
+        {
+            h = c * 3;
+            Console.WriteLine(h);
+        }
+
+        Console.ReadKey();
+    }
+}
