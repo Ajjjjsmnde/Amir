@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int c, h;
+        Console.Write("enter number: ");
+        c = int.Parse(Console.ReadLine());
+
+        for (;;)
+        {
+            Console.Write("enter number: ");
+            h = int.Parse(Console.ReadLine());
+
+            if (h != 0)
+            {
+                c = c * h;
+                Console.WriteLine(c);
+            }
+            else
+                break;
+        }
+    }
+}
