@@ -4,9 +4,10 @@ class Program
 {
     static void Main()
     {
+        int a;
         string[] d = new string[] { "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
         Console.Write("enter number: ");
-        int a = int.Parse(Console.ReadLine());
+        a = int.Parse(Console.ReadLine());
         if (a >= 1 && a <= 7)
         {
             Console.WriteLine(d[a - 1]);
