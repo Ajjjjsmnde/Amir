@@ -1,0 +1,30 @@
+using System;
+
+namespace EvenOddCounter
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i, number, evenCount = 0, oddCount = 0;
+            Console.WriteLine("Enter 10 numbers");
+
+            for (i = 1; i <= 10; i++)
+            {
+                Console.Write($"Enter number {i}: ");
+                number = int.Parse(Console.ReadLine());
+                if (number % 2 == 0)
+                {
+                    evenCount += 1;
+                }
+                else
+                {
+                    oddCount += 1;
+                }
+            }
+
+            Console.WriteLine($"Tedad adad zoj: {evenCount} va tedad adad fard: {oddCount}");
+            Console.ReadKey();
+        }
+    }
+}
